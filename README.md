@@ -1,32 +1,11 @@
 # Kotlin.Quiz
 
-To remove the status bar, define a theme inheriting from NoActionBar:
+![image](https://user-images.githubusercontent.com/15805568/148481072-bc4df143-1550-42bb-9082-ab7911f03033.png)
 
-```Kotlin
-    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
-    </style>
-```
+The options are generated programmatically.
 
-And set the theme of the app in manifest file (The second line makes the app only runs in portrait mode).
+![image](https://user-images.githubusercontent.com/15805568/148481275-bead6201-2492-4e7f-9742-b31c510d9768.png)
 
-```Kotlin
-android:theme="@style/NoActionBarTheme"
-android:screenOrientation="portrait"
-```
+It shows your score after you finish all the questions.
 
-
-
-```Kotlin
-
-```
-
-```Kotlin
-
-```
-
-```Kotlin
-
-```
+![image](https://user-images.githubusercontent.com/15805568/148481392-060d64b9-4d72-4b6b-8a42-d9c9610b3575.png)
